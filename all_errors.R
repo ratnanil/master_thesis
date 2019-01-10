@@ -1,0 +1,16 @@
+#all errors
+library(tidyverse)
+library(sp)
+library(arcgisbinding)
+library(grid)
+library(ggplot2)
+arc.check_product()
+#dev.off()
+pushViewport(viewport(layout = grid.layout(1, 4)))
+print(generalization_whiskers_plot, vp = viewport(layout.pos.row = 1, layout.pos.col = 1))
+print(width_extension_whisker_plot, vp = viewport(layout.pos.row = 1, layout.pos.col = 2))
+print(man_dig_whisker_plot, vp = viewport(layout.pos.row = 1, layout.pos.col = 3))
+print(georeferencing_whisker_plot, vp = viewport(layout.pos.row = 1, layout.pos.col = 4))
+all_whiskers_plot = recordPlot()
+dev.off()
+all_whiskers_plot

@@ -1,4 +1,7 @@
-#This script will analyse the outputs of the width_extension experiments
+# This script will analyse the outputs of the width_extension experiments of my master thesis.
+# It begins with importing another script of mine, 'cyrills_r_functions.R', that stores the
+# functions used in this script.
+# This script was part of my master thesis at the Zurich university of applied sciences ZHAW in 2018.
 #
 #Note to myself:
 #Sense: min_width 7.5 (=minimum_width 15) had 2 rows in the total_sinuosity table instead of 1 row like all other tables.

@@ -1,4 +1,6 @@
-# cyrills_r_functions
+# This script is a collection of functions that are used in other scripts to analyze the results of my master thesis.
+# This script was part of my master thesis at the Zurich university of applied sciences ZHAW in 2018.
+
 #table_to_mean
 table_to_mean = function(path){
   input = arc.select(arc.open(path))
